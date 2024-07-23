@@ -1,0 +1,9 @@
+.foot{
+    text-align: center;
+    margin: auto;
+    max-width: 80%;
+    border-top: 1px solid #2a5ada;
+    padding: 15px 0px;
+    font-size: 13px;
+    color: #2a5ada;
+}

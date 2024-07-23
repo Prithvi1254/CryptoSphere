@@ -1,0 +1,101 @@
+nav {
+    height: 70px;
+    width: 100%;
+    border-bottom: 2px solid #2a5ada;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.first {
+    height: 80%;
+    width: 30%;
+    border: 2px solid transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-left {
+    height: 80%;
+    width: 30%;
+    border: 2px solid transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-left select {
+    height: 70%;
+    width: 15%;
+    margin: 10px;
+    border-radius: 10px;
+    color: #2a5ada;
+    border: 3px solid #2a5ada;
+}
+
+.first-left select option {
+    font-size: medium;
+    color: #2a5ada;
+}
+
+.first-left button {
+    height: 70%;
+    width: 25%;
+    margin: 10px;
+    background-color: #2a5ada;
+    color: white;
+    border: #2a5ada;
+    border-radius: 40px;
+    white-space: nowrap; /* Prevent line break */
+}
+
+.first-left button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.first h1, h2 {
+    color: #2a5ada;
+}
+
+.two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 900px) {
+    .first {
+        height: 80%;
+        width: 20%;
+        border: 2px solid transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav .first h1 {
+        display: none;
+    }
+
+    nav .first-left select {
+        height: 30px;
+        width: auto; /* Adjust width for better responsiveness */
+        margin: 5px; /* Adjust margin for better spacing */
+    }
+
+    .first-left button {
+        height: 30px;
+        width: auto; /* Adjust width for better responsiveness */
+        padding: 0 10px; /* Add padding for better spacing */
+        margin: 5px; /* Adjust margin for better spacing */
+        white-space: nowrap; /* Prevent line break */
+    }
+
+    .x {
+        height: 30px;
+        border: #2a5ada;
+        width: auto; /* Adjust width for better responsiveness */
+    }
+}
